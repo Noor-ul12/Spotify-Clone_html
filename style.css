@@ -12,6 +12,7 @@ body{
 nav ul{
     display: flex;
     list-style-type: none;
+    align-items: center;
     height: 44px;
     background-color: black;
     color: white;
@@ -20,6 +21,7 @@ nav ul{
 
 nav ul li{
     padding: 0 12px;
+    align-items: center;
     cursor: pointer;
 }
 
@@ -34,4 +36,41 @@ nav ul li{
     font-weight: bolder;
     font-size: 1.3rem;
 
+}
+
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family: 'Figtree', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('bg.jpeg');
+    
+}
+
+.bottom{
+    position:sticky;
+    height: 130px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 14px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 80vw;
 }
